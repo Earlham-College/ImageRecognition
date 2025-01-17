@@ -1,0 +1,27 @@
+import cv2
+# from simple_facerec import SimpleFacerec
+# # Load Camera
+cap = cv2.VideoCapture(2)
+
+
+while True:
+    ret, frame = cap.read()    
+    cv2.imshow("Frame",frame)
+    key = cv2.waitKey(1)
+    if key == 27:
+        break
+cap.release()
+cv2.destroyAllWindows()
+   #     # Detect Faces
+#     face_locations, face_names = sfr.detect_known_faces(frame)
+
+#     for face_loc, name in zip(face_locations, face_names):
+#         print(face_loc)
+ 
+    
+#     cv2.putText(frame, name,(x1, y1 - 10), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 200), 2)
+#     cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 200), 4)
+
+#     cv2.imshow("Frame", frame)
+
+
