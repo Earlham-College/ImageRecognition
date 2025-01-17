@@ -1,0 +1,39 @@
+----Install conda (terminal, MACOS, Linux)
+conda update conda
+conda activate Py37
+conda install numpy
+conda install opencv
+conda env list
+conda activate Py35
+python --version
+conda rename -n Py35 Py38
+python --version
+history
+conda create -n Py27 python=2.7
+conda env list
+conda activate Py27
+python --version
+
+------ A particular package
+
+pip install opencv-python
+conda search
+conda search opencv
+python --version
+
+
+conda search matplotlib
+conda search numpy
+
+
+------ A particular package
+
+pip install face_recognition
+pip install --upgrade pip
+pip install face_recognition
+
+------ Fixing errors
+pip install cmake
+pip install dlib
+pip install --upgrade pip
+pip install face_recognition
