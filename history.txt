@@ -3,6 +3,7 @@ conda update conda
 conda activate Py37
 conda install numpy
 conda install opencv
+pip install opencv-python
 conda env list
 conda activate Py35
 python --version
