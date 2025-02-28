@@ -32,9 +32,27 @@ conda search numpy
 pip install face_recognition
 pip install --upgrade pip
 pip install face_recognition
-
+pip install imutils
+pip install scipy
 ------ Fixing errors
 pip install cmake
-pip install dlib
+pip install dlib 
 pip install --upgrade pip
 pip install face_recognition
+pip install kagglehub # to download datasets, and more.
+brew install cmake 
+brew install gcc
+
+-------- Gral commands to get more info about a package/module
+pip show dlib #19.24.6
+pip show numpy #2.0.2
+pip show face_recognition # 1.3.0
+pip show scipy # 1.13.1
+pip show Click # 8.1.8
+pip show face_recognition_models # 0.3.0
+pip show Pillow # 11.1.0
+
+--------
+Kaggle will safe images:
+Path to dataset files: 
+/Users/JO/.cache/kagglehub/datasets/adg1822/7-celebrity-images/versions/1
