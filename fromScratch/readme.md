@@ -38,7 +38,7 @@ This is an interesting and practical material inspired and implemented from ref.
 In the main folder put a unknown.jpg image.
 
 The following shows the tree:
-
+```
 face_recognizer/
 │
 ├── output/
@@ -55,6 +55,7 @@ face_recognizer/
 ├── detector.py
 ├── requirements.txt
 └── unknown.jpg
+```
 
 We will not use CNN model at stage, but in the future it will be implemented and tested. It is good idea to run train line several times; to execute this:
 1. python detector.py
@@ -72,4 +73,5 @@ Probably it will have some warnings, but it will show you one recognized person.
 
 <!-- # [References](#references) -->
 <a name="references">References</a>
-[1] [Real Python](https://realpython.com/face-recognition-with-python/#step-2-load-training-data-and-train-your-model)
+
+[1] <a href="https://realpython.com/face-recognition-with-python/#step-2-load-training-data-and-train-your-model" target="_blank">Real Python</a>
